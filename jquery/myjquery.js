@@ -1,0 +1,27 @@
+
+jQuery(document).ready(function($){
+    $('#slider').owlCarousel({
+        loop:true,
+        center:true,
+        items:3,
+        margin:40,
+        autoplay:true,
+        dots:true,
+        autoplayTimeout:3000,
+        smartSpeed:450,
+        responsive:{
+            0:{
+                items:1,
+            },
+            800:{
+                items:2.5,
+            },
+            1100:{
+                items:3,
+            },
+            2000:{
+                items:5,
+            }
+        }    
+    })
+})
